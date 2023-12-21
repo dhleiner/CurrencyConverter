@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>Currency Coverter</h1>
+    </header>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" defer>
+        </script>
+    </head>
+    <body>
+        <h2>This banknote is GR&Sigma;&Sigma;K to me</h2>
+        <form>
+            <label for="fname">I have:</label><br>
+            <input type="number" id="myNumber" value=2><br>
+            <select id="NativeCurrency" name="tocurrency">           
+                <option value="1">Dollar $ </option>
+                <option value=".7418">Pound &#163;</option>
+                <option value=".8261">Euro 	&#128</option>
+                <option value="75.44">Rupee &#8377;</option>
+            </select>
+        </form>
+        <button onclick="myConvertCurrency()">Convert</button>
+        <button onclick="myDecompose()">Factor</button>
+        <button onclick="myPrime()">Prime</button>
+        <button onclick="myPrimeFactor()">Prime Factors</button>
+        <button onclick="myFib()">Fibonacci</button>
+
+        <p>TO</p>
+        <select id="ForeignCurrency" name="tocurrency">           
+            <option value="1">Dollar $ </option>
+            <option value=".7418">Pound &#163;</option>
+            <option value=".8261">Euro 	&#128</option>
+            <option value="75.44">Rupee &#8377;</option> 
+        </select>
+        <p>Is approximately: </P>
+        <p id="output"></p><br>
+    </body>
+    <article>
+        <p><em>World events affect exchange rates.</em></p>
+    </article>
+    <aside>
+        Inflation occurs if the government prints too much money.
+    </aside>
+    <footer>
+        <p>&copy 2020 All rights reserved</p>
+    </footer>
+</html>
+
